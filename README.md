@@ -4,4 +4,4 @@ The data in this repository are separated into 5 csv files each respresenting th
 
 This project was submitted to Duquesne University's 15th Annual Undergraduate Research and Scholarship Symposium and won the Honors College's Outstanding Video award. Said video discussing the results can be watched here:
 
-https://youtu.be/eduUQ7-wvTE
+https://youtu.be/eduUQ7-wvTE/
