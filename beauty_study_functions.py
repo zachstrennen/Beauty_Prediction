@@ -26,7 +26,7 @@ def split_data(df: pd.DataFrame, ratio: float, target: str) ->\
         (pd.DataFrame, pd.DataFrame, pd.DataFrame, pd.DataFrame):
     """
     Split a dataframe by target and predictor variables.
-    Decide which data will be test data and which data will be training data.
+    Decide which data will be testing data and which data will be training data.
     :param df: Dataframe to be split.
     :param ratio: Ratio (float) of split between training and testing.
     :param target: String of target column name.
@@ -58,7 +58,7 @@ def possess(model, test_X: pd.DataFrame, test_y: pd.DataFrame):
     :param model: Already built model.
     :param test_X: train data for X.
     :param test_y: train data for y.
-    :return:
+    :return: Accuracy score.
     """
     y_pred = model.predict(test_X)
     predictions = [round(value) for value in y_pred]
